@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page Title</title>
+        <title>TechLearners</title>
     </head>
     <body>
-        <h3>Redirecting to duckdev.com after <span id="countdown">10</span> seconds</h3>
+        <h3>Redirecting to Teams after <span id="countdown">5</span> seconds</h3>
         <!-- JavaScript part -->
         <script type="text/javascript">
             // Total seconds to wait
-            var seconds = 10;
-
+            var seconds = 5;
+            var weblink = "https://teams.microsoft.com/l/meetup-join/19%3Ameeting_NWM0YmRhNzUtYjU3My00MDkzLWFkODEtODYyYTRmNjQ3YjQy%40thread.v2/0?context=%7B%22Tid%22%3A%2284c31ca0-ac3b-4eae-ad11-519d80233e6f%22%2C%22Oid%22%3A%222ec6f553-7106-4525-bfa6-96850c7c438f%22%7D";
             function countdown() {
                 seconds = seconds - 1;
                 if (seconds < 0) {
                     // Chnage your redirection link here
-                    window.location = "https://duckdev.com";
+                    window.location = weblink;
                 } else {
                     // Update remaining seconds
                     document.getElementById("countdown").innerHTML = seconds;
@@ -22,7 +22,6 @@
                     window.setTimeout("countdown()", 1000);
                 }
             }
-
             // Run countdown function
             countdown();
         </script>
