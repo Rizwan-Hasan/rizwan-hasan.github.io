@@ -31,7 +31,7 @@ summary: PolyCystic Ovary Syndrome (PCOS) is one of the most common causes of fe
 tags:
     - IEEE
 
-featured: true
+featured: false
 
 # links:
 #     - name: Custom Link
