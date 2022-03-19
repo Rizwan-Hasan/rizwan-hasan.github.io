@@ -27,6 +27,7 @@ summary: Considering the growing number of breast cancer cases and people being 
 
 tags:
     - Elsevier
+    - Journal
 
 featured: true
 
