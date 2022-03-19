@@ -28,7 +28,7 @@ summary: Tic-Tac-Toe, also known as Noughts and Crosses, is a widely popular gam
 tags:
     - IEEE
 
-featured: false
+featured: true
 
 # links:
 #     - name: Custom Link
