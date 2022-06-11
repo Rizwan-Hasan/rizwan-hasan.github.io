@@ -1,9 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>training | Rizwan Hasan</title><link>https://rizwan-hasan.github.io/tag/training/</link><atom:link href="https://rizwan-hasan.github.io/tag/training/index.xml" rel="self" type="application/rss+xml"/><description>training</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>All rights reserved © 2022 Rizwan Hasan</copyright><lastBuildDate>Tue, 11 Feb 2020 15:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/media/icon_hu39270201eb41491395a14ae1d70fd394_225760_512x512_fill_lanczos_center_3.png</url><title>training</title><link>https://rizwan-hasan.github.io/tag/training/</link></image><item><title>Workshop on Fundamentals of Python</title><link>https://rizwan-hasan.github.io/talk/workshop-on-fundamentals-of-python/</link><pubDate>Tue, 11 Feb 2020 15:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/talk/workshop-on-fundamentals-of-python/</guid><description>&lt;h4 id="some-shots-from-the-days">Some shots from the days&lt;/h4>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>training | Rizwan Hasan</title><link>https://rizwan-hasan.github.io/tag/training/</link><atom:link href="https://rizwan-hasan.github.io/tag/training/index.xml" rel="self" type="application/rss+xml"/><description>training</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Feb 2020 15:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/media/icon_hu39270201eb41491395a14ae1d70fd394_225760_512x512_fill_lanczos_center_3.png</url><title>training</title><link>https://rizwan-hasan.github.io/tag/training/</link></image><item><title>Workshop on Fundamentals of Python</title><link>https://rizwan-hasan.github.io/talk/workshop-on-fundamentals-of-python/</link><pubDate>Tue, 11 Feb 2020 15:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/talk/workshop-on-fundamentals-of-python/</guid><description>&lt;h4 id="some-shots-from-the-days">Some shots from the days&lt;/h4>
 &lt;hr>
-&lt;p>&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%201.jpg" alt="Photo 1">
-&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%202.jpg" alt="Photo 2">
-&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%203.jpg" alt="Photo 3">
-&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%204.jpg" alt="Photo 4">&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%201.jpg" alt="Photo 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%202.jpg" alt="Photo 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%203.jpg" alt="Photo 3" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%204.jpg" alt="Photo 4" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.

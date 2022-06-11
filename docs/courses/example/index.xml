@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📊 Learn Data Science | Rizwan Hasan</title><link>https://rizwan-hasan.github.io/courses/example/</link><atom:link href="https://rizwan-hasan.github.io/courses/example/index.xml" rel="self" type="application/rss+xml"/><description>📊 Learn Data Science</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>All rights reserved © 2022 Rizwan Hasan</copyright><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/courses/example/featured.jpg</url><title>📊 Learn Data Science</title><link>https://rizwan-hasan.github.io/courses/example/</link></image><item><title>Python basics</title><link>https://rizwan-hasan.github.io/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📊 Learn Data Science | Rizwan Hasan</title><link>https://rizwan-hasan.github.io/courses/example/</link><atom:link href="https://rizwan-hasan.github.io/courses/example/index.xml" rel="self" type="application/rss+xml"/><description>📊 Learn Data Science</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/courses/example/featured.jpg</url><title>📊 Learn Data Science</title><link>https://rizwan-hasan.github.io/courses/example/</link></image><item><title>Python basics</title><link>https://rizwan-hasan.github.io/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -39,12 +39,11 @@
 &lt;/details>
 &lt;details class="spoiler " id="spoiler-3">
 &lt;summary>Write Plotly code to render a bar chart&lt;/summary>
-&lt;p>&lt;pre>&lt;code class="language-python">import plotly.express as px
-data_canada = px.data.gapminder().query(&amp;quot;country == 'Canada'&amp;quot;)
-fig = px.bar(data_canada, x='year', y='pop')
-fig.show()
-&lt;/code>&lt;/pre>
-&lt;/p>
+&lt;p>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">plotly.express&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">px&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data_canada&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">px&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">gapminder&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">query&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;country == &amp;#39;Canada&amp;#39;&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fig&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">px&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">data_canada&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;year&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">y&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;pop&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fig&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">show&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p>
 &lt;/details></description></item><item><title>Statistics</title><link>https://rizwan-hasan.github.io/courses/example/stats/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/stats/</guid><description>&lt;p>Introduction to statistics for data science.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
