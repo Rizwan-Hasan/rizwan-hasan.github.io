@@ -44,7 +44,7 @@ experience:
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fab fa-github" style="color: #333"></i>
         &nbsp;[TechLearnersInc](https://github.com/TechLearnersInc)
 
-    - title: Software Engineer (Full-time)
+    - title: Software Engineer (full-time)
       company: ClearML
       company_url: false
       company_logo: clearml
@@ -52,7 +52,7 @@ experience:
       date_start: "2022-02-01"
       date_end: false
       description: |2-
-        [Allegro AI](https://allegro.ai/) is the company behind [ClearML](https://clear.ml/), the leading open source MLOps stack. ClearML provides a comprehensive stack to support the full lifecycle of ML/DL workloads and is used by thousands of organizations globally.
+        [Allegro AI](https://allegro.ai/) is the company behind [ClearML](https://clear.ml/), the leading open source MLOps stack. Here, I work on solving bugs, reproducing bugs, writing tests, and small feature development using Python and use AWS for the cloud. Also, I’m learning and doing DevOps work using Jenkins.
 
 design:
     columns: "2"
