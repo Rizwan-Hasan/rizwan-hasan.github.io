@@ -16,7 +16,7 @@ organizations:
       url: https://social27.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: "Software Engineer (Full-time) at [ClearML](https://clear.ml/) | Microsoft Learn Student Ambassadors at [Microsoft](https://www.microsoft.com/)"
+bio: "Software Engineer"
 
 # Interests to show in About widget
 interests:
@@ -106,6 +106,6 @@ email: "rizwan.hasan486@gmail.com"
 highlight_name: true
 ---
 
-Full-time Software Engineer at [ClearML](https://clear.ml/), Co-Founder of [TechLearners](https://github.com/TechLearnersInc). Skilled in Python Programmer and Linux Distribution Development. Strong media and communication professional with a Bachelor's Degree focused on Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/).
+Harnessing the power of my expertise as a **Software Engineer**, I proudly serve two prestigious companies, actively driving innovation and technological advancement. Proficient in the art of **Python programming** and **Linux development**. As a beacon of unwavering dedication, I possess a Bachelor's Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh. With a robust foundation in media and exceptional communication skills, I forge meaningful connections that leave an indelible impact.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}.
