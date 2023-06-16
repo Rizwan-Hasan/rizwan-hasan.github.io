@@ -5,7 +5,7 @@ summary: "<br />
 <br /><br />
 **‟** Rizwan has a fantastic understanding of JavaScript and its related concepts like JSON, and he communicates clearly through his writing. **”** "
 
-draft: false
+draft: true
 
 tags:
     - recommendations

@@ -1,10 +1,10 @@
 ---
 title: Sawrav Chowdhury
-summary: "**CS Graduate || Artificial Intelligence Enthusiast**
+summary: "**Civil Servant (Head Engineer) at Government of Norway**
 <br /><br />
 **‟** Rizwan is my junior at my university. He is passionate about the Linux technology and also has a good amount of knowledge on python language. He has strong project development skills. He developed MagpieOS which is an Arch Linux based Linux Distribution for pc users. I would recommend his expertise. **”** "
 
-draft: true
+draft: false
 
 tags:
     - recommendations

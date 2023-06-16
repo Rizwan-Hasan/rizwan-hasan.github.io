@@ -1,6 +1,6 @@
 ---
 title: Abhishek Prakash Chaturvedi
-summary: "**Founder of [ItsFOSS](https://itsfoss.com/)**
+summary: "**Founder of [Itsfoss](https://itsfoss.com/)**
 <br /><br />
 **‟** Rizwan is passionate about software development and likes to contribute to open source projects.<br />
 A self-learned person, Rizwan developed a few open source projects in the Linux domain. This included a custom Linux distributions based on Arch Linux. While new Linux users are afraid of even installing Arch, Rizwan created his own distro based on it. And all that when he was still a student.<br />
@@ -26,6 +26,11 @@ links:
       icon_pack: fab
       name: Linkedin
       url: "https://www.linkedin.com/in/abhishekprakashchaturvedi/"
+
+    - icon: link
+      icon_pack: fab
+      name: Itsfoss
+      url: "https://itsfoss.com/"
 
 # url_code: ""
 # url_pdf: ""
