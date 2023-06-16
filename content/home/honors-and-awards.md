@@ -30,7 +30,7 @@ item:
       organization: Microsoft
       organization_url: "https://www.microsoft.com/"
       title: "Microsoft Learn Student Ambassador"
-      url: "https://studentambassadors.microsoft.com/"
+      url: "https://studentambassadors.microsoft.com/certificate/9560b827-0fe9-410a-a948-a7a5dd71cea7"
 
     - certificate_url: "media/certificates/certificate-of-honor-for-python-workshop-at-edu.pdf"
       date_start: "2020-02-16"
@@ -39,7 +39,7 @@ item:
       organization: EDU Computer Club
       organization_url: "https://www.eastdelta.edu.bd/"
       title: "Certificate of Honour"
-      url: "https://www.eastdelta.edu.bd/"
+      url: "media/certificates/certificate-of-honor-for-python-workshop-at-edu.pdf"
 
     - certificate_url: "media/certificates/certificate-of-presentation-for-bdml-2020.pdf"
       date_start: "2020-12-16"
@@ -48,7 +48,7 @@ item:
       organization: Chittagong University of Engineering and Technology
       organization_url: "https://www.cuet.ac.bd/"
       title: "Certificate of Presentation"
-      url: "https://www.cuet.ac.bd/"
+      url: "media/certificates/certificate-of-presentation-for-bdml-2020.pdf"
 
 design:
     columns: "2"

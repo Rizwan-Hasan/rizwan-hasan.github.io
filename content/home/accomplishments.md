@@ -33,16 +33,16 @@ item:
       organization: HackerRank
       organization_url: https://www.hackerrank.com/
       title: "Problem Solving (Basic)"
-      url: false
+      url: https://www.hackerrank.com/certificates/5038462f4df9
 
-    - certificate_url: https://www.hackerrank.com/certificates/369899aa3ce7
-      date_start: "2020-06-13"
-      date_end: false
-      description: "Covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes"
-      organization: HackerRank
-      organization_url: https://www.hackerrank.com/
-      title: "Python (Basic)"
-      url: false
+    # - certificate_url: https://www.hackerrank.com/certificates/369899aa3ce7
+    #   date_start: "2020-06-13"
+    #   date_end: false
+    #   description: "Covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes"
+    #   organization: HackerRank
+    #   organization_url: https://www.hackerrank.com/
+    #   title: "Python (Basic)"
+    #   url: https://www.hackerrank.com/certificates/369899aa3ce7
 
     - certificate_url: https://www.hackerrank.com/certificates/d09f4e76a159
       date_start: "2020-09-11"
@@ -51,7 +51,7 @@ item:
       organization: HackerRank
       organization_url: https://www.hackerrank.com/
       title: "Python (Intermediate)"
-      url: false
+      url: https://www.hackerrank.com/certificates/d09f4e76a159
 
 design:
     columns: "2"
