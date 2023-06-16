@@ -6,12 +6,14 @@ title: Rizwan Hasan
 superuser: true
 
 # Role/position/tagline
-role: "Software Engineer (Full-time)"
+role: "Software Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
     - name: ClearML
       url: https://clear.ml/
+    - name: Social27
+      url: https://social27.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Software Engineer (Full-time) at [ClearML](https://clear.ml/) | Microsoft Learn Student Ambassadors at [Microsoft](https://www.microsoft.com/)"
