@@ -8,9 +8,13 @@
             "args": [
                 "up",
                 "liveserver",
-                "--force-recreate",
+                "--force-recreate"
             ],
-            "problemMatcher": []
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "Deploy",
@@ -19,9 +23,13 @@
             "args": [
                 "up",
                 "deploy",
-                "--force-recreate",
+                "--force-recreate"
             ],
-            "problemMatcher": []
-        },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        }
     ]
 }
