@@ -53,6 +53,15 @@ item:
       title: "Python (Intermediate)"
       url: https://www.hackerrank.com/certificates/d09f4e76a159
 
+    - certificate_url: https://learn.mongodb.com/c/cAS5dDffRCyopgOUktfz6A
+      date_start: "2023-06-17"
+      date_end: false
+      description: "Covers an overview of pymongo, the official driver for the Python programming language, how to connect, basic CRUD operations, troubleshooting, and building aggregations."
+      organization: MongoDB
+      organization_url: https://mongodb.com/
+      title: "Using MongoDB with Python"
+      url: https://learn.mongodb.com/c/cAS5dDffRCyopgOUktfz6A
+
 design:
     columns: "2"
 ---
