@@ -10,10 +10,10 @@ role: "Software Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
-    - name: ClearML
-      url: https://clear.ml/
-    - name: Social27
+    - name: Social27 Inc.
       url: https://social27.com/
+    # - name: ClearML
+    #   url: https://clear.ml/
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Software Engineer"
@@ -21,18 +21,17 @@ bio: "Software Engineer"
 # Interests to show in About widget
 interests:
     - Software Development
-    - Cloud Technology
-    - Machine Learning
     - Back-end Development
+    - Machine Learning
+    - Cloud Technology
     - Technical Writing
-    - Philosophy
 
 # Education to show in About widget
 education:
     courses:
         - course: BSc in Computer Science
           institution: East Delta University
-          year: false
+          year: 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -106,6 +105,6 @@ email: "rizwan.hasan486@gmail.com"
 highlight_name: true
 ---
 
-Harnessing the power of my expertise as a **Software Engineer**, I proudly serve two prestigious companies, actively driving innovation and technological advancement. Proficient in the art of **Python programming** and **Linux development**. As a beacon of unwavering dedication, I possess a Bachelor's Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh. With a robust foundation in media and exceptional communication skills, I forge meaningful connections that leave an indelible impact.
+Harnessing the power of my **1.5 years** expertise as a **Software Engineer**, I proudly serve prestigious companies, actively driving innovation and technological advancement. Proficient in the art of **Python programming** and **Linux development**. As a beacon of unwavering dedication, I possess a Bachelor's Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a robust foundation in media and exceptional communication skills, I forge meaningful connections that leave an indelible impact.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}.

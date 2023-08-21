@@ -44,33 +44,30 @@ experience:
     #     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fab fa-github" style="color: #333"></i>
     #     &nbsp;[TechLearnersInc](https://github.com/TechLearnersInc)
 
-    - title: Software Engineer (full-time)
-      company: ClearML
-      company_url: https://clear.ml
-      company_logo: clearml
-      location: Working remotely
-      date_start: "2022-02-01"
-      date_end: false
-      description: |2-
-        My responsibilities include:
-          - Reproducing bugs that users report and debugging them.
-          - Fixing bugs in the product using technical and programming knowledge.
-          - Creating tests for the product and making those tests run in the pipeline.
-          - Creating and fixing things in the Jenkins pipeline.
-          - Helping the QA Testing team with understanding and testing things out.
-          - Helping the DevOps team with Server and Jenkins-related stuff.
-
-    - title: Software Engineer (part-time)
-      company: Social27
-      company_url: https://social27.com
+    - title: Software Engineer
+      company: Social27 Inc.
+      company_url: https://social27.com/
       company_logo: social27
-      location: Working remotely
+      location: Full-time (remote)
       date_start: "2023-06-01"
       date_end: false
       description: |2-
         My responsibilities include:
-          - Reproducing bugs that users report and debugging them.
-          - Fixing bugs in the product using technical and programming knowledge.
+          - Thorough bug investigation and diligently reproduce and debug user-reported issues.
+          - Backend bug fixing utilizing `Python`, `FastAPI`, `MongoDB`, `Redis`, and `Microsoft SQL Server` expertise to rectify bugs effectively.
+
+    - title: Software Engineer
+      company: ClearML
+      company_url: https://clear.ml/
+      company_logo: clearml
+      location: Full-time (remote)
+      date_start: "2022-02-01"
+      date_end: "2023-07-10"
+      description: |2-
+        My responsibilities include:
+          - Detecting and solving issues in the ClearML `Python` package. While using tools and packages such as: `VSCode`, `PyCharm`, `Tensorflow`, `PyTorch`, `Scikit-Learn`, `Pandas`, `Numpy`, `Matplotlib`, `Plotly`, `GitHub`, `Bitbucket` and `Jira`.
+          - Building CI infrastructure using `Bitbucket Pipelines`, and implementing unit and integration tests in `Python`.
+          - Developing tools using `Docusaurus` and `Sphinx`, and building pipelines using `Jenkins` Pipelines.
 
 design:
     columns: "2"
