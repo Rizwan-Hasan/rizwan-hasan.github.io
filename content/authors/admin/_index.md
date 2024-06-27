@@ -10,10 +10,10 @@ role: "Software Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
+    - name: HiveGPT
+      url: https://hivegpt.ai/
     - name: Social27 Inc.
       url: https://social27.com/
-    # - name: ClearML
-    #   url: https://clear.ml/
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Software Engineer"
@@ -23,8 +23,8 @@ interests:
     - Software Development
     - Back-end Development
     - Machine Learning
-    - Cloud Technology
-    - Technical Writing
+    - Large Language Model
+    - Retrieval Augmented Generation
 
 # Education to show in About widget
 education:
@@ -105,6 +105,6 @@ email: "rizwan.hasan486@gmail.com"
 highlight_name: true
 ---
 
-Harnessing the power of my **1.5 years** expertise as a **Software Engineer**, I proudly serve prestigious companies, actively driving innovation and technological advancement. Proficient in the art of **Python programming** and **Linux development**. As a beacon of unwavering dedication, I possess a Bachelor's Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a robust foundation in media and exceptional communication skills, I forge meaningful connections that leave an indelible impact.
+As a seasoned **Software Engineer** with **more than 2 years** of experience, I excel in driving innovation and technological advancement for prestigious companies. My expertise lies in **Python programming** and **Linux development**, where I develop robust and efficient solutions. I hold a Bachelor’s Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a strong foundation in media and exceptional communication skills, I forge meaningful connections and make a lasting impact in the tech industry.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} **Download my** {{< staticref "media/Resume - Rizwan Hasan.pdf" "newtab" >}}Resume{{< /staticref >}} **/** {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}
