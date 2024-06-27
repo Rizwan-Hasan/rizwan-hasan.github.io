@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rizwan Hasan</title><link>https://rizwan-hasan.github.io/</link><atom:link href="https://rizwan-hasan.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rizwan Hasan</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/media/icon_hu11d1f000a8102ea34567a228126802cc_441106_512x512_fill_lanczos_center_3.png</url><title>Rizwan Hasan</title><link>https://rizwan-hasan.github.io/</link></image><item><title>Python basics</title><link>https://rizwan-hasan.github.io/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rizwan Hasan</title><link>https://rizwan-hasan.github.io/</link><atom:link href="https://rizwan-hasan.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rizwan Hasan</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/media/icon_hu11d1f000a8102ea34567a228126802cc_441106_512x512_fill_lanczos_center_3.png</url><title>Rizwan Hasan</title><link>https://rizwan-hasan.github.io/</link></image><item><title>Python basics</title><link>https://rizwan-hasan.github.io/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
 &lt;p>
 &lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
 &lt;h2 id="learn">Learn&lt;/h2>
@@ -63,7 +63,7 @@ The variance of the distribution is $\sigma^{2}$.
 &lt;details class="spoiler " id="spoiler-2">
 &lt;summary>What is the parameter $\mu$?&lt;/summary>
 &lt;p>The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p>
-&lt;/details></description></item><item><title>Victor Sonck</title><link>https://rizwan-hasan.github.io/recommendations/victor-sonck/</link><pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/victor-sonck/</guid><description/></item><item><title>Erez Schnaider</title><link>https://rizwan-hasan.github.io/recommendations/erez-schnaider/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/erez-schnaider/</guid><description/></item><item><title>Bangla Music Genre Classification Using Fast and Scalable Integrated Ensemble Boosting Framework</title><link>https://rizwan-hasan.github.io/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</link><pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;/details></description></item><item><title>Oren Rechtman</title><link>https://rizwan-hasan.github.io/recommendations/oren-rechtman/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/oren-rechtman/</guid><description/></item><item><title>Alexandru Burlacu</title><link>https://rizwan-hasan.github.io/recommendations/alexandru-burlacu/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/alexandru-burlacu/</guid><description/></item><item><title>Victor Sonck</title><link>https://rizwan-hasan.github.io/recommendations/victor-sonck/</link><pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/victor-sonck/</guid><description/></item><item><title>Erez Schnaider</title><link>https://rizwan-hasan.github.io/recommendations/erez-schnaider/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/erez-schnaider/</guid><description/></item><item><title>Bangla Music Genre Classification Using Fast and Scalable Integrated Ensemble Boosting Framework</title><link>https://rizwan-hasan.github.io/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</link><pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -216,7 +216,7 @@ data.head()
 &lt;p>Academic supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> chart format.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-564827931" class="chart">&lt;/div>
+&lt;div id="chart-123467895" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -225,7 +225,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-564827931', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-123467895', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
