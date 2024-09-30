@@ -107,4 +107,4 @@ highlight_name: true
 
 As a seasoned **Software Engineer** with **more than 2 years** of experience, I excel in driving innovation and technological advancement for prestigious companies. My expertise lies in **Python programming** and **Linux development**, where I develop robust and efficient solutions. I hold a Bachelor’s Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a strong foundation in media and exceptional communication skills, I forge meaningful connections and make a lasting impact in the tech industry.
 
-{{< icon name="download" pack="fas" >}} **Download my** {{< staticref "media/Resume - Rizwan Hasan.pdf" "newtab" >}}Resume{{< /staticref >}} **/** {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}
+{{< icon name="download" pack="fas" >}} **Download my** {{< staticref "media/Resume - Rizwan Hasan.pdf" "newtab" >}}Resumé{{< /staticref >}} **/** {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}
