@@ -10,8 +10,6 @@ role: "Software Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
-    - name: HiveGPT
-      url: https://hivegpt.ai/
     - name: Social27 Inc.
       url: https://social27.com/
 
@@ -105,6 +103,6 @@ email: "rizwan.hasan486@gmail.com"
 highlight_name: true
 ---
 
-As a seasoned **Software Engineer** with **more than 2 years** of experience, I excel in driving innovation and technological advancement for prestigious companies. My expertise lies in **Python programming** and **Linux development**, where I develop robust and efficient solutions. I hold a Bachelor’s Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a strong foundation in media and exceptional communication skills, I forge meaningful connections and make a lasting impact in the tech industry.
+I am a dedicated and experienced **Software Engineer** with **almost 3 years** of experience, specializing in backend development, debugging, and cloud computing. My expertise lies in **Python programming** and **Linux development**, where I develop robust and efficient solutions. I hold a Bachelor’s Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a strong foundation in media and exceptional communication skills, I forge meaningful connections and make a lasting impact in the tech industry. And have a proven track record of solving complex issues, optimizing system performance, and enhancing software quality through continuous improvement practices.
 
 {{< icon name="download" pack="fas" >}} **Download my** {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}

@@ -1,6 +1,6 @@
 ---
 title: Victor Sonck
-summary: "**Freelance ML Engineer | [projectwhy.be](https://projectwhy.be)**
+summary: "**R&D Data Scientist AI for Recycling at [VITO](https://www.vito.be/)**
 <br /><br />
 **‟** Rizwan has been a fun and talented colleague, always positive and constructive. When debugging Python bugs together it was always a fun experience. We tended to meet when the work to be done was especially difficult or hard to diagnose, but his technical skills allow him to quickly remedy any issue. I highly recommend Rizwan as a colleague and friend! **”**"
 
@@ -24,10 +24,10 @@ links:
       name: Linkedin
       url: "https://www.linkedin.com/in/victor-sonck/"
 
-    - icon: link
-      icon_pack: fab
-      name: projectwhy.be
-      url: "https://projectwhy.be/"
+    # - icon: link
+    #   icon_pack: fab
+    #   name: projectwhy.be
+    #   url: "https://projectwhy.be/"
 
 # url_code: ""
 # url_pdf: ""

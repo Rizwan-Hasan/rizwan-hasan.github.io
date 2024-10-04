@@ -1,6 +1,6 @@
 ---
-title: Fahim Irfan Alam
-summary: "**Postdoctoral Research Fellow, South Western Sydney Clinical Campus, School of Clinical Medicine, [UNSW](https://www.unsw.edu.au/)**
+title: Fahim Irfan Alam, Phd
+summary: "**Research Fellow at [UNSW Sydney](https://www.unsw.edu.au/)**
 <br /><br />
 **‟** I have known Rizwan since 2020 in the capacity of one of the course instructors and fellow researcher. I noticed his sincere motivation in acquiring substantial knowledge in Machine learning during the course work, which ultimately took a solid shape after he joined our research group. He showed profound dedication, hardworking attitude and excellent research capabilities in his way to co-author several publications, one of which was principally authored by him. His development skills cover a wide variety of range, starting from traditional programming languages to web development and finally to recent machine learning tools including major applications used for implementing deep learning-based solutions. To my maximum confidence, I sincerely believe that Rizwan will be an excellent choice in graduate programs and also, for industry-based positions as he tremendously fit for those roles. **”**"
 
