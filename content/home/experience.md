@@ -45,23 +45,6 @@ experience:
     #     &nbsp;[TechLearnersInc](https://github.com/TechLearnersInc)
 
     - title: Software Engineer
-      company: HiveGPT
-      company_url: https://hivegpt.ai/
-      company_logo: hivegpt
-      location: Remote
-      date_start: "2023-10-01"
-      date_end: false
-      description: |2-
-        **Responsibilities:**
-        - **Thorough Bug Investigation:** I meticulously investigate and reproduce user-reported issues across complex systems, including `LLM`, `AI models`, `Azure` services, `ChatGPT`, and `Langchain`.
-
-        - **Expert Debugging:** Leveraging my expertise in `Python`, `FastAPI`, `MongoDB`, `Redis`, and `Microsoft SQL Server`, I effectively debug and rectify backend issues to ensure optimal performance and reliability.
-
-        - **Advanced Problem Solving:** I apply innovative solutions to challenges in `AI integration`, cloud computing on `Azure`, and the development of scalable systems like Langchain, ensuring robust functionality and user satisfaction.
-
-        - **Continuous Improvement:** I actively contribute to enhancing software quality and efficiency through rigorous testing, code reviews, and the implementation of best practices in software development and deployment.
-
-    - title: Software Engineer
       company: Social27 Inc.
       company_url: https://social27.com/
       company_logo: social27
@@ -70,13 +53,9 @@ experience:
       date_end: false
       description: |2-
         **Responsibilities:**
-        - **Thorough Bug Investigation:** I meticulously investigate and reproduce user-reported issues across complex systems, including `LLM`, `AI models`, `Azure` services, `ChatGPT`, and `Langchain`.
-
-        - **Expert Debugging:** Leveraging my expertise in `Python`, `FastAPI`, `MongoDB`, `Redis`, and `Microsoft SQL Server`, I effectively debug and rectify backend issues to ensure optimal performance and reliability.
-
-        - **Advanced Problem Solving:** I apply innovative solutions to challenges in `AI integration`, cloud computing on `Azure`, and the development of scalable systems like Langchain, ensuring robust functionality and user satisfaction.
-
-        - **Continuous Improvement:** I actively contribute to enhancing software quality and efficiency through rigorous testing, code reviews, and the implementation of best practices in software development and deployment.
+        - Investigate and reproduce user‑reported issues across complex systems, including `LLM`, `AI models`, `Azure` services, `ChatGPT`, and `Langchain`.
+        - With my expertise in `Python`, `FastAPI`, `MongoDB`, `Redis`, and `Microsoft SQL Server`, I effectively debug and rectify backend issues to ensure optimal performance and reliability.
+        - Apply innovative solutions to challenges in AI integration, cloud computing on Azure, and the development of scalable systems, ensuring robust functionality and user satisfaction.
 
     - title: Software Engineer
       company: ClearML
@@ -87,11 +66,9 @@ experience:
       date_end: "2023-07-10"
       description: |2-
         **Responsibilities:**
-        - **Troubleshooted and resolved** issues in the ClearML Python package using `VSCode`, `PyCharm`, `Tensorflow`, `PyTorch`, etc.
-
-        - **Built and implemented** CI infrastructure using `Bitbucket Pipelines`, including unit and integration tests in Python.
-
-        - **Developed** technical documentation tools using Docusaurus and Sphinx, and created data processing pipelines using `Jenkins` Pipelines.
+        - Troubleshoot and resolved issues in the ClearML Python package using `VSCode`, `PyCharm`, `TensorFlow`, `PyTorch`, etc
+        - Built and implemented CI infrastructure using `Bitbucket Pipelines`, including unit and integration tests in `Python`.
+        - Developed technical documentation tools using Docusaurus and `Sphinx`, and created data processing pipelines using `Jenkins` Pipelines.
 
 design:
     columns: "2"
