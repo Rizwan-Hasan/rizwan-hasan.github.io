@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: 'Experienced Software Engineer | Python, FastAPI, LLM | AI Integration | Azure Services | CI/CD Specialist'
+    twitter: 'Linux_Saikat'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: 'All rights reserved © 2022 Rizwan Hasan'
+    notice: 'All rights reserved © 2025 Rizwan Hasan'
     license:
       enable: true
       allow_derivatives: false
