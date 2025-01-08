@@ -1,69 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rizwan Hasan</title><link>https://rizwan-hasan.github.io/</link><atom:link href="https://rizwan-hasan.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rizwan Hasan</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>https://rizwan-hasan.github.io/media/icon_huf5e0b98081f7e225c6879c0394be8bc9_187684_512x512_fill_lanczos_center_3.png</url><title>Rizwan Hasan</title><link>https://rizwan-hasan.github.io/</link></image><item><title>Python basics</title><link>https://rizwan-hasan.github.io/courses/example/python/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/python/</guid><description>&lt;p>Build a foundation in Python.&lt;/p>
-&lt;p>
-&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
-&lt;h2 id="learn">Learn&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/rfscVS0vtbw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;h2 id="quiz">Quiz&lt;/h2>
-&lt;details class="spoiler " id="spoiler-2">
-&lt;summary>What is the difference between lists and tuples?&lt;/summary>
-&lt;p>&lt;p>Lists&lt;/p>
-&lt;ul>
-&lt;li>Lists are mutable - they can be changed&lt;/li>
-&lt;li>Slower than tuples&lt;/li>
-&lt;li>Syntax: &lt;code>a_list = [1, 2.0, 'Hello world']&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>Tuples&lt;/p>
-&lt;ul>
-&lt;li>Tuples are immutable - they can&amp;rsquo;t be changed&lt;/li>
-&lt;li>Tuples are faster than lists&lt;/li>
-&lt;li>Syntax: &lt;code>a_tuple = (1, 2.0, 'Hello world')&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-3">
-&lt;summary>Is Python case-sensitive?&lt;/summary>
-&lt;p>Yes&lt;/p>
-&lt;/details></description></item><item><title>Visualization</title><link>https://rizwan-hasan.github.io/courses/example/visualization/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/visualization/</guid><description>&lt;p>Learn how to visualize data with Plotly.&lt;/p>
-&lt;p>
-&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
-&lt;h2 id="learn">Learn&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/hSPmj7mK6ng" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;h2 id="quiz">Quiz&lt;/h2>
-&lt;details class="spoiler " id="spoiler-2">
-&lt;summary>When is a heatmap useful?&lt;/summary>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p>
-&lt;/details>
-&lt;details class="spoiler " id="spoiler-3">
-&lt;summary>Write Plotly code to render a bar chart&lt;/summary>
-&lt;p>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">plotly.express&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">px&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data_canada&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">px&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">gapminder&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">query&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;country == &amp;#39;Canada&amp;#39;&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fig&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">px&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">bar&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">data_canada&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;year&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">y&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;pop&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fig&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">show&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/p>
-&lt;/details></description></item><item><title>Statistics</title><link>https://rizwan-hasan.github.io/courses/example/stats/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/courses/example/stats/</guid><description>&lt;p>Introduction to statistics for data science.&lt;/p>
-&lt;p>
-&lt;i class="fas fa-clock pr-1 fa-fw">&lt;/i> 1-2 hours per week, for 8 weeks&lt;/p>
-&lt;h2 id="learn">Learn&lt;/h2>
-&lt;p>The general form of the &lt;strong>normal&lt;/strong> probability density function is:&lt;/p>
-&lt;p>$$
-f(x) = \frac{1}{\sigma \sqrt{2\pi} } e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
-$$&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-The parameter $\mu$ is the mean or expectation of the distribution.
-$\sigma$ is its standard deviation.
-The variance of the distribution is $\sigma^{2}$.
-&lt;/div>
-&lt;/div>
-&lt;h2 id="quiz">Quiz&lt;/h2>
-&lt;details class="spoiler " id="spoiler-2">
-&lt;summary>What is the parameter $\mu$?&lt;/summary>
-&lt;p>The parameter $\mu$ is the mean or expectation of the distribution.&lt;/p>
-&lt;/details></description></item><item><title>Oren Rechtman</title><link>https://rizwan-hasan.github.io/recommendations/oren-rechtman/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/oren-rechtman/</guid><description/></item><item><title>Alexandru Burlacu</title><link>https://rizwan-hasan.github.io/recommendations/alexandru-burlacu/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/alexandru-burlacu/</guid><description/></item><item><title>Victor Sonck</title><link>https://rizwan-hasan.github.io/recommendations/victor-sonck/</link><pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/victor-sonck/</guid><description/></item><item><title>Erez Schnaider</title><link>https://rizwan-hasan.github.io/recommendations/erez-schnaider/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/erez-schnaider/</guid><description/></item><item><title>Bangla Music Genre Classification Using Fast and Scalable Integrated Ensemble Boosting Framework</title><link>https://rizwan-hasan.github.io/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</link><pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rizwan Hasan</title><link>https://rizwanhasan.com/</link><atom:link href="https://rizwanhasan.com/index.xml" rel="self" type="application/rss+xml"/><description>Rizwan Hasan</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>https://rizwanhasan.com/media/icon_huf5e0b98081f7e225c6879c0394be8bc9_187684_512x512_fill_lanczos_center_3.png</url><title>Rizwan Hasan</title><link>https://rizwanhasan.com/</link></image><item><title>Oren Rechtman</title><link>https://rizwanhasan.com/recommendations/oren-rechtman/</link><pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/oren-rechtman/</guid><description/></item><item><title>Alexandru Burlacu</title><link>https://rizwanhasan.com/recommendations/alexandru-burlacu/</link><pubDate>Sun, 02 Jul 2023 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/alexandru-burlacu/</guid><description/></item><item><title>Victor Sonck</title><link>https://rizwanhasan.com/recommendations/victor-sonck/</link><pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/victor-sonck/</guid><description/></item><item><title>Erez Schnaider</title><link>https://rizwanhasan.com/recommendations/erez-schnaider/</link><pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/erez-schnaider/</guid><description/></item><item><title>Bangla Music Genre Classification Using Fast and Scalable Integrated Ensemble Boosting Framework</title><link>https://rizwanhasan.com/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</link><pubDate>Wed, 16 Mar 2022 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/publication/bangla-music-genre-classification-using-fast-and-scalable-integrated-ensemble-boosting-framework/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -73,7 +8,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Deep integrated pipeline of segmentation guided classification of breast cancer from ultrasound images</title><link>https://rizwan-hasan.github.io/publication/deep-integrated-pipeline-of-segmentation-guided-classification-of-breast-cancer-from-ultrasound-images/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/deep-integrated-pipeline-of-segmentation-guided-classification-of-breast-cancer-from-ultrasound-images/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Deep integrated pipeline of segmentation guided classification of breast cancer from ultrasound images</title><link>https://rizwanhasan.com/publication/deep-integrated-pipeline-of-segmentation-guided-classification-of-breast-cancer-from-ultrasound-images/</link><pubDate>Thu, 17 Feb 2022 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/publication/deep-integrated-pipeline-of-segmentation-guided-classification-of-breast-cancer-from-ultrasound-images/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -83,7 +18,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Fahim Irfan Alam, Phd</title><link>https://rizwan-hasan.github.io/recommendations/fahim-irfan-alam/</link><pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/fahim-irfan-alam/</guid><description/></item><item><title>An Integrated Expert System with a Supervised Machine Learning based Probabilistic Approach to Play Tic-Tac-Toe</title><link>https://rizwan-hasan.github.io/publication/an-integrated-expert-system-with-a-supervised-machine-learning-based-probabilistic-approach-to-play-tic-tac-toe/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/an-integrated-expert-system-with-a-supervised-machine-learning-based-probabilistic-approach-to-play-tic-tac-toe/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Fahim Irfan Alam, Phd</title><link>https://rizwanhasan.com/recommendations/fahim-irfan-alam/</link><pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/fahim-irfan-alam/</guid><description/></item><item><title>An Integrated Expert System with a Supervised Machine Learning based Probabilistic Approach to Play Tic-Tac-Toe</title><link>https://rizwanhasan.com/publication/an-integrated-expert-system-with-a-supervised-machine-learning-based-probabilistic-approach-to-play-tic-tac-toe/</link><pubDate>Mon, 10 Jan 2022 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/publication/an-integrated-expert-system-with-a-supervised-machine-learning-based-probabilistic-approach-to-play-tic-tac-toe/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -93,7 +28,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Realtime PvP Chess Game (Web Application)</title><link>https://rizwan-hasan.github.io/project/realtime-pvp-chess-game-web-application/</link><pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/realtime-pvp-chess-game-web-application/</guid><description/></item><item><title>File Sharing using Node.js (Web Application)</title><link>https://rizwan-hasan.github.io/project/file-sharing-web-application/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/file-sharing-web-application/</guid><description/></item><item><title>Improved Sampling and Feature Selection to Support Extreme Gradient Boosting For PCOS Diagnosis</title><link>https://rizwan-hasan.github.io/publication/improved-sampling-and-feature-selection-to-support-extreme-gradient-boosting-for-pcos-diagnosis/</link><pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/improved-sampling-and-feature-selection-to-support-extreme-gradient-boosting-for-pcos-diagnosis/</guid><description>&lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Realtime PvP Chess Game (Web Application)</title><link>https://rizwanhasan.com/project/realtime-pvp-chess-game-web-application/</link><pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/realtime-pvp-chess-game-web-application/</guid><description/></item><item><title>File Sharing using Node.js (Web Application)</title><link>https://rizwanhasan.com/project/file-sharing-web-application/</link><pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/file-sharing-web-application/</guid><description/></item><item><title>Improved Sampling and Feature Selection to Support Extreme Gradient Boosting For PCOS Diagnosis</title><link>https://rizwanhasan.com/publication/improved-sampling-and-feature-selection-to-support-extreme-gradient-boosting-for-pcos-diagnosis/</link><pubDate>Tue, 16 Mar 2021 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/publication/improved-sampling-and-feature-selection-to-support-extreme-gradient-boosting-for-pcos-diagnosis/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -103,7 +38,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-&lt;p>Supplementary notes can be added here, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item><item><title>A Hybrid Probabilistic Ensemble based Extreme Gradient Boosting Approach For Breast Cancer Diagnosis</title><link>https://rizwan-hasan.github.io/publication/a-hybrid-probabilistic-ensemble-based-extreme-gradient-boosting-approach-for-breast-cancer-diagnosis/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/publication/a-hybrid-probabilistic-ensemble-based-extreme-gradient-boosting-approach-for-breast-cancer-diagnosis/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Supplementary notes can be added here, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">code, math, and images&lt;/a>.&lt;/p></description></item><item><title>A Hybrid Probabilistic Ensemble based Extreme Gradient Boosting Approach For Breast Cancer Diagnosis</title><link>https://rizwanhasan.com/publication/a-hybrid-probabilistic-ensemble-based-extreme-gradient-boosting-approach-for-breast-cancer-diagnosis/</link><pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/publication/a-hybrid-probabilistic-ensemble-based-extreme-gradient-boosting-approach-for-breast-cancer-diagnosis/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -113,7 +48,7 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Rubaialter (Python Module)</title><link>https://rizwan-hasan.github.io/project/rubaialter-python-module/</link><pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/rubaialter-python-module/</guid><description/></item><item><title>Cythonizer (Python Module)</title><link>https://rizwan-hasan.github.io/project/cythonizer-python-module/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/cythonizer-python-module/</guid><description/></item><item><title>Abhishek Prakash Chaturvedi</title><link>https://rizwan-hasan.github.io/recommendations/abhishek-prakash-chaturvedi/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/abhishek-prakash-chaturvedi/</guid><description/></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://rizwan-hasan.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/post/getting-started/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Rubaialter (Python Module)</title><link>https://rizwanhasan.com/project/rubaialter-python-module/</link><pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/rubaialter-python-module/</guid><description/></item><item><title>Cythonizer (Python Module)</title><link>https://rizwanhasan.com/project/cythonizer-python-module/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/cythonizer-python-module/</guid><description/></item><item><title>Abhishek Prakash Chaturvedi</title><link>https://rizwanhasan.com/recommendations/abhishek-prakash-chaturvedi/</link><pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/abhishek-prakash-chaturvedi/</guid><description/></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://rizwanhasan.com/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/post/getting-started/</guid><description>&lt;h2 id="overview">Overview&lt;/h2>
 &lt;ol>
 &lt;li>The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li>
 &lt;li>The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong>no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong> and having &lt;strong>flexibility to later add even deeper personalization with HTML and CSS&lt;/strong>&lt;/li>
@@ -167,24 +102,24 @@ The template is mobile first with a responsive design to ensure that your site l
 &lt;p>&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener">Choose a stunning &lt;strong>theme&lt;/strong> and &lt;strong>font&lt;/strong>&lt;/a> for your site. Themes are fully customizable.&lt;/p>
 &lt;h2 id="license">License&lt;/h2>
 &lt;p>Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener">George Cushen&lt;/a>.&lt;/p>
-&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Mirrorlist Manager (ArchLinux)</title><link>https://rizwan-hasan.github.io/featured-works/mirrorlist-manager-archlinux/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/featured-works/mirrorlist-manager-archlinux/</guid><description/></item><item><title>URL Shortener (Web Application)</title><link>https://rizwan-hasan.github.io/project/url-shortener-web-application/</link><pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/url-shortener-web-application/</guid><description/></item><item><title>Realtime Chat App with Rooms (Web Application)</title><link>https://rizwan-hasan.github.io/project/realtime-chat-app-with-rooms-web-application/</link><pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/realtime-chat-app-with-rooms-web-application/</guid><description/></item><item><title>GPA Calculator (Web Application)</title><link>https://rizwan-hasan.github.io/project/gpa-calculator-web-application/</link><pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/gpa-calculator-web-application/</guid><description/></item><item><title>Workshop on Fundamentals of Python</title><link>https://rizwan-hasan.github.io/talk/workshop-on-fundamentals-of-python/</link><pubDate>Tue, 11 Feb 2020 15:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/talk/workshop-on-fundamentals-of-python/</guid><description>&lt;h4 id="some-shots-from-the-days">Some shots from the days&lt;/h4>
+&lt;p>Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md" target="_blank" rel="noopener">MIT&lt;/a> license.&lt;/p></description></item><item><title>Mirrorlist Manager (ArchLinux)</title><link>https://rizwanhasan.com/featured-works/mirrorlist-manager-archlinux/</link><pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/featured-works/mirrorlist-manager-archlinux/</guid><description/></item><item><title>URL Shortener (Web Application)</title><link>https://rizwanhasan.com/project/url-shortener-web-application/</link><pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/url-shortener-web-application/</guid><description/></item><item><title>Realtime Chat App with Rooms (Web Application)</title><link>https://rizwanhasan.com/project/realtime-chat-app-with-rooms-web-application/</link><pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/realtime-chat-app-with-rooms-web-application/</guid><description/></item><item><title>GPA Calculator (Web Application)</title><link>https://rizwanhasan.com/project/gpa-calculator-web-application/</link><pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/gpa-calculator-web-application/</guid><description/></item><item><title>Workshop on Fundamentals of Python</title><link>https://rizwanhasan.com/talk/workshop-on-fundamentals-of-python/</link><pubDate>Tue, 11 Feb 2020 15:00:00 +0000</pubDate><guid>https://rizwanhasan.com/talk/workshop-on-fundamentals-of-python/</guid><description>&lt;h4 id="some-shots-from-the-days">Some shots from the days&lt;/h4>
 &lt;hr>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%201.jpg" alt="Photo 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Fundamentals%20of%20Python/photo%201.jpg" alt="Photo 1" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%202.jpg" alt="Photo 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Fundamentals%20of%20Python/photo%202.jpg" alt="Photo 2" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%203.jpg" alt="Photo 3" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Fundamentals%20of%20Python/photo%203.jpg" alt="Photo 3" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Fundamentals%20of%20Python/photo%204.jpg" alt="Photo 4" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Fundamentals%20of%20Python/photo%204.jpg" alt="Photo 4" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;!-- &lt;div class="alert alert-note">
@@ -196,406 +131,20 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Sawrav Chowdhury</title><link>https://rizwan-hasan.github.io/recommendations/sawrav-chowdhury/</link><pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/recommendations/sawrav-chowdhury/</guid><description/></item><item><title>GPA Calculator (Android App)</title><link>https://rizwan-hasan.github.io/project/gpa-calculator-android-app/</link><pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/gpa-calculator-android-app/</guid><description/></item><item><title>Writing technical content in Academic</title><link>https://rizwan-hasan.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/post/writing-technical-content/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
-&lt;p>&lt;strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong>&lt;/p>
-&lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p>
-&lt;h2 id="examples">Examples&lt;/h2>
-&lt;h3 id="code">Code&lt;/h3>
-&lt;p>Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code>highlight&lt;/code> option in your &lt;code>config/_default/params.toml&lt;/code> file.&lt;/p>
-&lt;pre>&lt;code>```python
-import pandas as pd
-data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
-data.head()
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">read_csv&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;data.csv&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">head&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="charts">Charts&lt;/h3>
-&lt;p>Academic supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> chart format.&lt;/p>
-&lt;p>Save your Plotly JSON in your page folder, for example &lt;code>chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
-&lt;p>Demo:&lt;/p>
-&lt;div id="chart-251736948" class="chart">&lt;/div>
-&lt;script>
-(function() {
-let a = setInterval( function() {
-if ( typeof window.Plotly === 'undefined' ) {
-return;
-}
-clearInterval( a );
-Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-251736948', chart.data, chart.layout, {responsive: true});
-});
-}, 500 );
-})();
-&lt;/script>
-&lt;p>You might also find the &lt;a href="http://plotly-json-editor.getforge.io/" target="_blank" rel="noopener">Plotly JSON Editor&lt;/a> useful.&lt;/p>
-&lt;h3 id="math">Math&lt;/h3>
-&lt;p>Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code>math&lt;/code> option in your &lt;code>config/_default/params.toml&lt;/code> file.&lt;/p>
-&lt;p>To render &lt;em>inline&lt;/em> or &lt;em>block&lt;/em> math, wrap your LaTeX math with &lt;code>$...$&lt;/code> or &lt;code>$$...$$&lt;/code>, respectively.&lt;/p>
-&lt;p>Example &lt;strong>math block&lt;/strong>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nv">\gamma&lt;/span>&lt;span class="nb">_{n} &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\frac&lt;/span>&lt;span class="nb">{
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> | &lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n} &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">} &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb">^T
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">[&lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb"> x_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">]&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> |}
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">{&lt;/span>&lt;span class="nv">\left&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\nabla&lt;/span>&lt;span class="nb"> F&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">\mathbf&lt;/span>&lt;span class="nb">{x}_{n&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\right&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\|&lt;/span>&lt;span class="nb">^&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="s">$$&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;p>$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left |\nabla F(\mathbf{x}&lt;em>{n}) - \nabla F(\mathbf{x}&lt;/em>{n-1}) \right |^2}$$&lt;/p>
-&lt;p>Example &lt;strong>inline math&lt;/strong> &lt;code>$\nabla F(\mathbf{x}_{n})$&lt;/code> renders as $\nabla F(\mathbf{x}_{n})$.&lt;/p>
-&lt;p>Example &lt;strong>multi-line math&lt;/strong> using the &lt;code>\\\\&lt;/code> math linebreak:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">f&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nb">k;p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">}&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nb"> &lt;/span>&lt;span class="nv">\begin&lt;/span>&lt;span class="nb">{cases}p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">, &lt;/span>&lt;span class="nv">\\\\&lt;/span>&lt;span class="nb">
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">p_{&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">}^{&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="nb">} &amp;amp; &lt;/span>&lt;span class="nv">\text&lt;/span>&lt;span class="nb">{if }k&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="nb">.&lt;/span>&lt;span class="nv">\end&lt;/span>&lt;span class="nb">{cases}&lt;/span>&lt;span class="s">$$&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;p>$$f(k;p_{0}^{&lt;em>}) = \begin{cases}p_{0}^{&lt;/em>} &amp;amp; \text{if }k=1, \\
-1-p_{0}^{*} &amp;amp; \text{if }k=0.\end{cases}$$&lt;/p>
-&lt;h3 id="diagrams">Diagrams&lt;/h3>
-&lt;p>Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code>diagram&lt;/code> option in your &lt;code>config/_default/params.toml&lt;/code> file or by adding &lt;code>diagram: true&lt;/code> to your page front matter.&lt;/p>
-&lt;p>An example &lt;strong>flowchart&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-graph TD
-A[Hard] --&amp;gt;|Text| B(Round)
-B --&amp;gt; C{Decision}
-C --&amp;gt;|One| D[Result 1]
-C --&amp;gt;|Two| E[Result 2]
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-&lt;/div>
-&lt;p>An example &lt;strong>sequence diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-sequenceDiagram
-Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
-loop Healthcheck
-John-&amp;gt;&amp;gt;John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John--&amp;gt;&amp;gt;Alice: Great!
-John-&amp;gt;&amp;gt;Bob: How about you?
-Bob--&amp;gt;&amp;gt;John: Jolly good!
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-&lt;/div>
-&lt;p>An example &lt;strong>Gantt diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-gantt
-section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">gantt
-section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
-&lt;/div>
-&lt;p>An example &lt;strong>class diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-classDiagram
-Class01 &amp;lt;|-- AveryLongClass : Cool
-&amp;lt;&amp;lt;interface&amp;gt;&amp;gt; Class01
-Class09 --&amp;gt; C2 : Where am i?
-Class09 --* C3
-Class09 --|&amp;gt; Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-&amp;lt;&amp;lt;service&amp;gt;&amp;gt;
-int id
-size()
-}
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">classDiagram
-Class01 &lt;|-- AveryLongClass : Cool
-&lt;&lt;interface>> Class01
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-class Class10 {
-&lt;&lt;service>>
-int id
-size()
-}
-&lt;/div>
-&lt;p>An example &lt;strong>state diagram&lt;/strong>:&lt;/p>
-&lt;pre>&lt;code>```mermaid
-stateDiagram
-[*] --&amp;gt; Still
-Still --&amp;gt; [*]
-Still --&amp;gt; Moving
-Moving --&amp;gt; Still
-Moving --&amp;gt; Crash
-Crash --&amp;gt; [*]
-```
-&lt;/code>&lt;/pre>
-&lt;p>renders as&lt;/p>
-&lt;div class="mermaid">stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-&lt;/div>
-&lt;h3 id="todo-lists">Todo lists&lt;/h3>
-&lt;p>You can even write your todo lists in Academic too:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [x]&lt;/span> Write math example
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [x]&lt;/span> Write diagram example
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">- [ ]&lt;/span> Do something else
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write math example&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox"> Write diagram example&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Do something else&lt;/li>
-&lt;/ul>
-&lt;h3 id="tables">Tables&lt;/h3>
-&lt;p>Represent your data in tables:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">| First Header | Second Header |
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| ------------- | ------------- |
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| Content Cell | Content Cell |
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">| Content Cell | Content Cell |
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>First Header&lt;/th>
-&lt;th>Second Header&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Content Cell&lt;/td>
-&lt;td>Content Cell&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Content Cell&lt;/td>
-&lt;td>Content Cell&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="callouts">Callouts&lt;/h3>
-&lt;p>Academic supports a &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/#callouts" target="_blank" rel="noopener">shortcode for callouts&lt;/a>, also referred to as &lt;em>asides&lt;/em>, &lt;em>hints&lt;/em>, or &lt;em>alerts&lt;/em>. By wrapping a paragraph in &lt;code>{{% callout note %}} ... {{% /callout %}}&lt;/code>, it will render as an aside.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% callout note %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% /callout %}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/div>
-&lt;/div>
-&lt;h3 id="spoilers">Spoilers&lt;/h3>
-&lt;p>Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">spoiler&lt;/span> &lt;span class="na">text&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;Click to view the spoiler&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">You found me!
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">spoiler&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;details class="spoiler " id="spoiler-2">
-&lt;summary>Click to view the spoiler&lt;/summary>
-&lt;p>You found me!&lt;/p>
-&lt;/details>
-&lt;h3 id="icons">Icons&lt;/h3>
-&lt;p>Academic enables you to use a wide range of &lt;a href="https://sourcethemes.com/academic/docs/page-builder/#icons" target="_blank" rel="noopener">icons from &lt;em>Font Awesome&lt;/em> and &lt;em>Academicons&lt;/em>&lt;/a> in addition to &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/#emojis" target="_blank" rel="noopener">emojis&lt;/a>.&lt;/p>
-&lt;p>Here are some examples using the &lt;code>icon&lt;/code> shortcode to render icons:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">icon&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;terminal&amp;#34;&lt;/span> &lt;span class="na">pack&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fas&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}} Terminal
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">icon&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;python&amp;#34;&lt;/span> &lt;span class="na">pack&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fab&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}} Python
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">icon&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;r-project&amp;#34;&lt;/span> &lt;span class="na">pack&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;fab&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}} R
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>renders as&lt;/p>
-&lt;p>
-&lt;i class="fas fa-terminal pr-1 fa-fw">&lt;/i> Terminal&lt;br>
-&lt;i class="fab fa-python pr-1 fa-fw">&lt;/i> Python&lt;br>
-&lt;i class="fab fa-r-project pr-1 fa-fw">&lt;/i> R&lt;/p>
-&lt;h3 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h3></description></item><item><title>Java Socket Chat (Desktop Application)</title><link>https://rizwan-hasan.github.io/project/java-socket-chat-desktop-application/</link><pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/java-socket-chat-desktop-application/</guid><description/></item><item><title>GPA Calculator JavaFX (Desktop Application)</title><link>https://rizwan-hasan.github.io/project/gpa-calculator-javafx-desktop-application/</link><pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/gpa-calculator-javafx-desktop-application/</guid><description/></item><item><title>Display Jupyter Notebooks with Academic</title><link>https://rizwan-hasan.github.io/post/jupyter/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/post/jupyter/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">IPython.core.display&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">Image&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">Image&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./index_1_0.png" alt="png" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Welcome to Academic!&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code>Welcome to Academic!
-&lt;/code>&lt;/pre>
-&lt;h2 id="install-python-and-jupyterlab">Install Python and JupyterLab&lt;/h2>
-&lt;p>&lt;a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda&lt;/a> which includes Python 3 and JupyterLab.&lt;/p>
-&lt;p>Alternatively, install JupyterLab with &lt;code>pip3 install jupyterlab&lt;/code>.&lt;/p>
-&lt;h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook&lt;/h2>
-&lt;p>Run the following commands in your Terminal, substituting &lt;code>&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code> and &lt;code>&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code> with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">jupyter lab index.ipynb
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>jupyter&lt;/code> command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p>
-&lt;h2 id="edit-your-post-metadata">Edit your post metadata&lt;/h2>
-&lt;p>The first cell of your Jupter notebook will contain your post metadata (&lt;a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter&lt;/a>).&lt;/p>
-&lt;p>In Jupter, choose &lt;em>Markdown&lt;/em> as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p>
-&lt;pre tabindex="0">&lt;code>---
-title: My post&amp;#39;s title
-date: 2019-09-01
-# Put any other Academic metadata here...
----
-&lt;/code>&lt;/pre>&lt;p>Edit the metadata of your post, using the &lt;a href="https://sourcethemes.com/academic/docs/managing-content" target="_blank" rel="noopener">documentation&lt;/a> as a guide to the available options.&lt;/p>
-&lt;p>To set a &lt;a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image" target="_blank" rel="noopener">featured image&lt;/a>, place an image named &lt;code>featured&lt;/code> into your post&amp;rsquo;s folder.&lt;/p>
-&lt;p>For other tips, such as using math, see the guide on &lt;a href="https://sourcethemes.com/academic/docs/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic&lt;/a>.&lt;/p>
-&lt;h2 id="convert-notebook-to-markdown">Convert notebook to Markdown&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class="o">=&lt;/span>.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="example">Example&lt;/h2>
-&lt;p>This post was created with Jupyter. The orginal files can be found at &lt;a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter" target="_blank" rel="noopener">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a>&lt;/p></description></item><item><title>Slides</title><link>https://rizwan-hasan.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
-&lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://owchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="features">Features&lt;/h2>
-&lt;ul>
-&lt;li>Efficiently write slides in Markdown&lt;/li>
-&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
-&lt;li>Supports speaker notes&lt;/li>
-&lt;li>Mobile friendly slides&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="controls">Controls&lt;/h2>
-&lt;ul>
-&lt;li>Next: &lt;code>Right Arrow&lt;/code> or &lt;code>Space&lt;/code>&lt;/li>
-&lt;li>Previous: &lt;code>Left Arrow&lt;/code>&lt;/li>
-&lt;li>Start: &lt;code>Home&lt;/code>&lt;/li>
-&lt;li>Finish: &lt;code>End&lt;/code>&lt;/li>
-&lt;li>Overview: &lt;code>Esc&lt;/code>&lt;/li>
-&lt;li>Speaker notes: &lt;code>S&lt;/code>&lt;/li>
-&lt;li>Fullscreen: &lt;code>F&lt;/code>&lt;/li>
-&lt;li>Zoom: &lt;code>Alt + Click&lt;/code>&lt;/li>
-&lt;li>&lt;a href="https://github.com/hakimel/reveal.js#pdf-export" target="_blank" rel="noopener">PDF Export&lt;/a>: &lt;code>E&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
-&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
-&lt;p>Code block:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">porridge&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">porridge&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Eating...&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h2 id="math">Math&lt;/h2>
-&lt;p>In-line math: $x + y = z$&lt;/p>
-&lt;p>Block math:&lt;/p>
-&lt;p>$$
-f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p>
-&lt;hr>
-&lt;h2 id="fragments">Fragments&lt;/h2>
-&lt;p>Make content appear incrementally&lt;/p>
-&lt;pre tabindex="0">&lt;code>{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code>&lt;/pre>&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
-&lt;span class="fragment " >
-One
-&lt;/span>
-&lt;span class="fragment " >
-&lt;strong>Two&lt;/strong>
-&lt;/span>
-&lt;span class="fragment " >
-Three
-&lt;/span>
-&lt;hr>
-&lt;p>A fragment can accept two optional parameters:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
-&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
-&lt;p>Add speaker notes to your presentation&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% speaker_note %}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Only the speaker can read these notes
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Press &lt;span class="sb">`S`&lt;/span> key to view
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% /speaker_note %}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
-&lt;aside class="notes">
-&lt;ul>
-&lt;li>Only the speaker can read these notes&lt;/li>
-&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
-&lt;/ul>
-&lt;/aside>
-&lt;hr>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;ul>
-&lt;li>black: Black background, white text, blue links (default)&lt;/li>
-&lt;li>white: White background, black text, blue links&lt;/li>
-&lt;li>league: Gray background, white text, blue links&lt;/li>
-&lt;li>beige: Beige background, dark text, brown links&lt;/li>
-&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;ul>
-&lt;li>night: Black background, thick white text, orange links&lt;/li>
-&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
-&lt;li>simple: White background, black text, blue links&lt;/li>
-&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;section data-noprocess data-shortcode-slide
-data-background-image="/media/boards.jpg"
->
-&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
-&lt;p>Customize the slide style and background&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-image&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;/media/boards.jpg&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-color&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;#0000FF&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;my-style&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
-&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
-&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h1&lt;/span>&lt;span class="o">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h2&lt;/span>&lt;span class="o">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h3&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">navy&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;h1 id="questions">Questions?&lt;/h1>
-&lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>GPA Calculator Python (Desktop Application)</title><link>https://rizwan-hasan.github.io/project/gpa-calculator-python-desktop-application/</link><pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/gpa-calculator-python-desktop-application/</guid><description/></item><item><title>Free Hash Checker (Desktop Application)</title><link>https://rizwan-hasan.github.io/project/free-hash-checker-desktop-application/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/project/free-hash-checker-desktop-application/</guid><description/></item><item><title>MagpieOS (Linux Distribution)</title><link>https://rizwan-hasan.github.io/featured-works/magpieos-linux-distribution/</link><pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/featured-works/magpieos-linux-distribution/</guid><description/></item><item><title>Seminar on Introduction to GitHub</title><link>https://rizwan-hasan.github.io/talk/seminar-on-introduction-to-github/</link><pubDate>Sun, 06 Aug 2017 16:30:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/talk/seminar-on-introduction-to-github/</guid><description>&lt;h4 id="some-shots-from-the-days">Some shots from the days&lt;/h4>
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Sawrav Chowdhury</title><link>https://rizwanhasan.com/recommendations/sawrav-chowdhury/</link><pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/recommendations/sawrav-chowdhury/</guid><description/></item><item><title>GPA Calculator (Android App)</title><link>https://rizwanhasan.com/project/gpa-calculator-android-app/</link><pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/gpa-calculator-android-app/</guid><description/></item><item><title>Java Socket Chat (Desktop Application)</title><link>https://rizwanhasan.com/project/java-socket-chat-desktop-application/</link><pubDate>Thu, 23 May 2019 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/java-socket-chat-desktop-application/</guid><description/></item><item><title>GPA Calculator JavaFX (Desktop Application)</title><link>https://rizwanhasan.com/project/gpa-calculator-javafx-desktop-application/</link><pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/gpa-calculator-javafx-desktop-application/</guid><description/></item><item><title>GPA Calculator Python (Desktop Application)</title><link>https://rizwanhasan.com/project/gpa-calculator-python-desktop-application/</link><pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/gpa-calculator-python-desktop-application/</guid><description/></item><item><title>Free Hash Checker (Desktop Application)</title><link>https://rizwanhasan.com/project/free-hash-checker-desktop-application/</link><pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/project/free-hash-checker-desktop-application/</guid><description/></item><item><title>MagpieOS (Linux Distribution)</title><link>https://rizwanhasan.com/featured-works/magpieos-linux-distribution/</link><pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/featured-works/magpieos-linux-distribution/</guid><description/></item><item><title>Seminar on Introduction to GitHub</title><link>https://rizwanhasan.com/talk/seminar-on-introduction-to-github/</link><pubDate>Sun, 06 Aug 2017 16:30:00 +0000</pubDate><guid>https://rizwanhasan.com/talk/seminar-on-introduction-to-github/</guid><description>&lt;h4 id="some-shots-from-the-days">Some shots from the days&lt;/h4>
 &lt;hr>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Introduction%20to%20GitHub/photo%201.jpg" alt="Photo 1" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Introduction%20to%20GitHub/photo%201.jpg" alt="Photo 1" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Introduction%20to%20GitHub/photo%202.jpg" alt="Photo 2" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Introduction%20to%20GitHub/photo%202.jpg" alt="Photo 2" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="https://rizwan-hasan.github.io/media/events/Introduction%20to%20GitHub/photo%203.jpg" alt="Photo 3" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://rizwanhasan.com/media/events/Introduction%20to%20GitHub/photo%203.jpg" alt="Photo 3" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;!-- &lt;div class="alert alert-note">
@@ -607,4 +156,4 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Linux From Scratch LiveCD</title><link>https://rizwan-hasan.github.io/featured-works/linux-from-scratch-livecd-image/</link><pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/featured-works/linux-from-scratch-livecd-image/</guid><description/></item><item><title/><link>https://rizwan-hasan.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rizwan-hasan.github.io/admin/config.yml</guid><description/></item></channel></rss>
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Linux From Scratch LiveCD</title><link>https://rizwanhasan.com/featured-works/linux-from-scratch-livecd-image/</link><pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/featured-works/linux-from-scratch-livecd-image/</guid><description/></item><item><title/><link>https://rizwanhasan.com/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rizwanhasan.com/admin/config.yml</guid><description/></item></channel></rss>
