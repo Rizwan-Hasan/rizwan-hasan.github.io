@@ -22,14 +22,17 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-    - title: Technical Content Writer
+    - title: Technical Content Writer & Moderator
       company: Dev Community Inc.
       company_url: "https://dev.to/"
       company_logo: dev
       location: false
       date_start: "2019-11-04"
       date_end: false
-      description: "Read my articles here: [https://dev.to/rizwan486](https://dev.to/rizwan486)"
+      description: |
+        As a DEV Community Moderator, I ensure a positive and inclusive environment by organizing content, mediating conflicts, and promoting high-quality posts to enhance the community experience.
+        <br />
+        Read my articles here: [dev.to/rizwan486](https://dev.to/rizwan486)
 
     - title: Technical Content Writer
       company: Medium

@@ -44,7 +44,7 @@ feature:
       icon_pack: fas
       name: Machine Learning
 
-    - description: "As a CS Student and tech enthusiast, it’s also necessary to share knowledge besides gaining"
+    - description: "As a tech enthusiast, it’s also necessary to share knowledge besides gaining"
       icon: pen
       icon_pack: fas
       name: Technical Writing

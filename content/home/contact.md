@@ -45,7 +45,7 @@ content:
   contact_links:
     - icon: linkedin
       icon_pack: fab
-      name: Chat on Linkedin
+      name: Contact me on Linkedin
       link: 'https://www.linkedin.com/in/rizwan486/'
 
 design:

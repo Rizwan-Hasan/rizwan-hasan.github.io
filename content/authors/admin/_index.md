@@ -18,11 +18,10 @@ bio: "Software Engineer"
 
 # Interests to show in About widget
 interests:
-    - Software Development
-    - Back-end Development
+    - Software Engineering
+    - Back-end Engineering
     - Machine Learning
     - Large Language Model
-    - Retrieval Augmented Generation
 
 # Education to show in About widget
 education:

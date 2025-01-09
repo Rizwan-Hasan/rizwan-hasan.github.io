@@ -22,13 +22,31 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-    - title: Microsoft Learn Student Ambassadors - Beta
+    - title: Student Ambassadors - Beta
       company: Microsoft
-      company_url: "https://www.microsoft.com/"
+      company_url: "https://mvp.microsoft.com/studentambassadors"
       company_logo: microsoft
       location: Bangladesh
       date_start: "2020-05-30"
-      date_end: false
+      date_end: "2022-04-30"
+      description: false
+
+    - title: Student Ambassadors - Alpha 2
+      company: Microsoft
+      company_url: "https://mvp.microsoft.com/studentambassadors"
+      company_logo: microsoft
+      location: Bangladesh
+      date_start: "2020-05-01"
+      date_end: "2020-05-30"
+      description: false
+
+    - title: Student Ambassadors - Alpha 1
+      company: Microsoft
+      company_url: "https://mvp.microsoft.com/studentambassadors"
+      company_logo: microsoft
+      location: Bangladesh
+      date_start: "2020-04-01"
+      date_end: "2020-04-30"
       description: false
 
     # - title: CEO

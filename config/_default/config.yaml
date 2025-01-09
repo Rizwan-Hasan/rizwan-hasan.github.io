@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Rizwan Hasan # Website name
+title: 'Rizwan Hasan' # Website name
 baseurl: 'https://rizwanhasan.com/' # Website URL
 
 ############################
@@ -46,7 +46,7 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 100
   anchor: smart
 timeout: 600000
 taxonomies:
