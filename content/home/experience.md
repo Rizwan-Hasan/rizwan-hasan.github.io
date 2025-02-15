@@ -45,6 +45,20 @@ experience:
     #     &nbsp;[TechLearnersInc](https://github.com/TechLearnersInc)
 
     - title: Software Engineer
+      company: Counterfoil Inc.
+      company_url: https://social27.com/
+      company_logo: counterfoil
+      location: Remote
+      date_start: "2025-01-15"
+      date_end: false
+      description: |2-
+        **Responsibilities:**
+        - Architected and developed analytics features using `Django`/`Python` backend framework, collaborating cross‑functionally to enhance data insights and reporting capabilities.
+        - Optimized multiple API endpoints to `improve performance` and `response times`, ensuring scalable backend infrastructure.
+        - Led `debugging` and maintenance efforts while delivering new features, maintaining high code quality through rigorous testing and documentation.
+        > [Ternary Solutions, Ltd.](https://ternary.solutions/) is the parent company of **Counterfoil Inc.**
+
+    - title: Software Engineer
       company: Social27 Inc.
       company_url: https://social27.com/
       company_logo: social27
@@ -69,6 +83,7 @@ experience:
         - Troubleshoot and resolved issues in the ClearML Python package using `VSCode`, `PyCharm`, `TensorFlow`, `PyTorch`, etc
         - Built and implemented CI infrastructure using `Bitbucket Pipelines`, including unit and integration tests in `Python`.
         - Developed technical documentation tools using Docusaurus and `Sphinx`, and created data processing pipelines using `Jenkins` Pipelines.
+        > [Allegro Artificial Intelligence, Ltd.](http://allegro.ai/) is the parent company of **ClearML**
 
 design:
     columns: "2"

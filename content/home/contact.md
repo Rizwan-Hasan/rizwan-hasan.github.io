@@ -29,7 +29,7 @@ content:
   phone: false
   address:
     street: 'Agrabad'
-    city: 'Chittagong'
+    city: 'Chattogram'
     region: false
     postcode: '4100'
     country: 'Bangladesh'

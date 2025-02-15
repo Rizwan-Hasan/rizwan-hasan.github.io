@@ -10,8 +10,8 @@ role: "Software Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
-    - name: Social27 Inc.
-      url: https://social27.com/
+    - name: Counterfoil Inc.
+      url: https://counterfoil.app/
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Software Engineer"
@@ -75,9 +75,9 @@ social:
       icon_pack: fab
       link: https://www.researchgate.net/profile/Rizwan-Hasan
 
-    - icon: telegram
-      icon_pack: fab
-      link: https://t.me/rizwan486
+    # - icon: telegram
+    #   icon_pack: fab
+    #   link: https://t.me/rizwan486
 
     - icon: hackerrank
       icon_pack: fab
@@ -102,6 +102,6 @@ email: "rizwan.hasan486@gmail.com"
 highlight_name: true
 ---
 
-I am a dedicated and experienced **Software Engineer** with **almost 3 years** of experience, specializing in backend development, debugging, and cloud computing. My expertise lies in **Python programming** and **Linux development**, where I develop robust and efficient solutions. I hold a Bachelor’s Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chittagong, Bangladesh 🇧🇩. With a strong foundation in media and exceptional communication skills, I forge meaningful connections and make a lasting impact in the tech industry. And have a proven track record of solving complex issues, optimizing system performance, and enhancing software quality through continuous improvement practices.
+I am a dedicated and experienced **Software Engineer** with **3 years** of experience, specializing in backend development, debugging, and cloud computing. My expertise lies in **Python programming** and **Linux development**, where I develop robust and efficient solutions. I hold a Bachelor’s Degree in Computer Science and Engineering from [East Delta University](https://www.eastdelta.edu.bd/), Chattogram, Bangladesh 🇧🇩. With a strong foundation in media and exceptional communication skills, I forge meaningful connections and make a lasting impact in the tech industry. And have a proven track record of solving complex issues, optimizing system performance, and enhancing software quality through continuous improvement practices.
 
 {{< icon name="download" pack="fas" >}} **Download my** {{< staticref "media/Curriculum Vitae (CV) - Rizwan Hasan.pdf" "newtab" >}}Curriculum Vitae (CV){{< /staticref >}}
