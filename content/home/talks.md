@@ -12,7 +12,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: "Community Engagements"
+title: "Invite Talks"
 subtitle: false
 
 content:
@@ -41,4 +41,7 @@ design:
     #   3 = Card
     #   4 = Citation (publication only)
     view: 2
+
+    # Choose how many columns the section has. Valid values: '1' or '2'.
+    columns: "2"
 ---

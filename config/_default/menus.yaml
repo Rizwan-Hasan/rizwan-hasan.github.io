@@ -10,20 +10,20 @@ main:
     - name: Experience
       url: "#experience"
       weight: 20
-    - name: Leadership
-      url: "#teamwork-leadership"
+    # - name: Leadership
+    #   url: "#teamwork-leadership"
       weight: 30
     - name: Projects
       url: "#projects"
       weight: 40
     - name: Publications
-      url: "#featured"
+      url: "#publications"
       weight: 50
     - name: Featured Works
       url: "#featured-works"
       weight: 60
-    - name: Recommend­ations
-      url: "#recommendations"
+    - name: Invited Talks
+      url: "#talks"
       weight: 70
     - name: Contact
       url: "#contact"
