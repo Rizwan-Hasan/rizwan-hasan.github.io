@@ -45,12 +45,25 @@ experience:
     #     &nbsp;[TechLearnersInc](https://github.com/TechLearnersInc)
 
     - title: Software Engineer
+      company: Car Buddy Chat
+      company_url: https://carbuddychat.com/
+      company_logo: carbuddychat
+      location: London, UK (Remote)
+      date_start: "2025-07-01"
+      date_end: false
+      # description: |2-
+      #   **Responsibilities:**
+      #   - .
+      #   - .
+      #   - .
+
+    - title: Software Engineer
       company: Counterfoil Inc.
       company_url: https://social27.com/
       company_logo: counterfoil
-      location: Remote
+      location: Dhaka, Bangladesh (Remote)
       date_start: "2025-01-15"
-      date_end: false
+      date_end: "2025-06-30"
       description: |2-
         **Responsibilities:**
         - Architected and developed analytics features using `Django`/`Python` backend framework, collaborating cross‑functionally to enhance data insights and reporting capabilities.
@@ -62,20 +75,20 @@ experience:
       company: Social27 Inc.
       company_url: https://social27.com/
       company_logo: social27
-      location: Remote
+      location: Redmond, Washington, USA (Remote)
       date_start: "2023-06-01"
       date_end: false
       description: |2-
         **Responsibilities:**
         - Investigate and reproduce user‑reported issues across complex systems, including `LLM`, `AI models`, `Azure` services, `ChatGPT`, and `Langchain`.
-        - With my expertise in `Python`, `FastAPI`, `MongoDB`, `Redis`, and `Microsoft SQL Server`, I effectively debug and rectify backend issues to ensure optimal performance and reliability.
+        - With my expertise in `Python`, `FastAPI`, `MongoDB`, `Redis`, `Microsoft SQL Server`, I effectively debug and rectify backend issues to ensure optimal performance and reliability.
         - Apply innovative solutions to challenges in AI integration, cloud computing on Azure, and the development of scalable systems, ensuring robust functionality and user satisfaction.
 
     - title: Software Engineer
       company: ClearML
       company_url: https://clear.ml/
       company_logo: clearml
-      location: Remote
+      location: Berkeley, California, USA (Remote)
       date_start: "2022-02-01"
       date_end: "2023-07-10"
       description: |2-
