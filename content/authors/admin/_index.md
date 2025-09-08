@@ -10,8 +10,8 @@ role: "Software Engineer"
 
 # Organizations/Affiliations to show in About widget
 organizations:
-    - name: Counterfoil Inc.
-      url: https://counterfoil.app/
+    - name: Car Buddy Chat
+      url: https://carbuddychat.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: "Software Engineer"
