@@ -24,7 +24,7 @@ date_end: false
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: false
+publishDate: ""
 
 authors: [
     admin,

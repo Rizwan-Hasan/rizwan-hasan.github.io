@@ -1,6 +1,7 @@
 ---
 title: Courses
 type: page
+draft: true
 
 header:
   caption: ""

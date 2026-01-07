@@ -51,11 +51,11 @@ experience:
       location: London, UK (Remote)
       date_start: "2025-07-01"
       date_end: false
-      # description: |2-
-      #   **Responsibilities:**
-      #   - .
-      #   - .
-      #   - .
+      description: |2-
+        **Responsibilities:**
+        - Joined as a founding software engineer, building core systems using Django, PostgreSQL, and Redis to shape the product from the ground up.
+        - Led full-cycle development from architecture and deployment to feature delivery and production issue resolution, ensuring high reliability and rapid iteration
+        - Owned all technical operations in a fast-paced startup environment, driving impactful decisions and contributing directly to product growth and scalability.
 
     - title: Software Engineer
       company: Counterfoil Inc.

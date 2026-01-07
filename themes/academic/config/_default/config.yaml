@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: "https://example.com/" # Website URL
 
 ############################
 ## LANGUAGE
@@ -20,9 +20,9 @@ removePathAccents: true
 ############################
 
 module:
-  imports:
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
-    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
+    imports:
+        - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5
+        - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5
 
 ############################
 ## ADVANCED
@@ -30,42 +30,43 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+pagination:
+    pagerSize: 10
 permalinks:
-  event: '/talk/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  publication_types: '/publication-type/:slug/'
+    event: "/talk/:slug/"
+    tags: "/tag/:slug/"
+    categories: "/category/:slug/"
+    publication_types: "/publication-type/:slug/"
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
-  section: [HTML, RSS]
+    home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+    section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
-  quality: 75
-  anchor: smart
+    resampleFilter: lanczos
+    quality: 75
+    anchor: smart
 timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
-  publication_type: publication_types
-  author: authors
+    tag: tags
+    category: categories
+    publication_type: publication_types
+    author: authors
 markup:
-  _merge: deep
+    _merge: deep
 related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
+    threshold: 80
+    includeNewer: true
+    toLower: true
+    indices:
+        - name: tags
+          weight: 100
+        - name: categories
+          weight: 70
 security:
-  _merge: deep
+    _merge: deep
 sitemap:
-  _merge: deep
+    _merge: deep

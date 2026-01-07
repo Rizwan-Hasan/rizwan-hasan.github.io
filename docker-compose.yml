@@ -1,7 +1,7 @@
 services:
 
-    deploy:
-        image: klakegg/hugo:0.95.0-ext-alpine
+    rizwan-portfolio-deploy:
+        image: klakegg/hugo:0.95.0-ext-debian
         container_name: rizwan-portfolio-deploy
         restart: "no"
         command: --gc --minify -d docs
@@ -9,8 +9,8 @@ services:
             - ".:/src"
             - "./tmp:/tmp"
 
-    liveserver:
-        image: klakegg/hugo:0.95.0-ext-alpine
+    rizwan-portfolio-liveserver:
+        image: klakegg/hugo:0.95.0-ext-debian
         container_name: rizwan-portfolio-liveserver
         restart: "no"
         command: server --disableFastRender
