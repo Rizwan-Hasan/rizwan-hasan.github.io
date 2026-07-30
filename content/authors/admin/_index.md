@@ -44,10 +44,8 @@ social:
 
     - icon: twitter
       icon_pack: fab
-      link: https://twitter.com/Linux_Saikat
-      display:
-          header: true
-      label: Follow me on twitter
+      link: https://x.com/Linux_Saikat
+      label: Follow me on X (formerly Twitter)
 
     - icon: graduation-cap
       icon_pack: fas
@@ -67,13 +65,20 @@ social:
           header: true
       label: Connect me on Linkedin
 
-    - icon: orcid
-      icon_pack: fab
-      link: https://orcid.org/0000-0002-6766-0295
+    - icon: yin-yang
+      icon_pack: fas
+      link: "https://rizwanhasan.com/philosophy/"
+      display:
+          header: true
+      label: An archive of my Observations and Thoughts
 
-    - icon: researchgate
-      icon_pack: fab
-      link: https://www.researchgate.net/profile/Rizwan-Hasan
+    # - icon: orcid
+    #   icon_pack: fab
+    #   link: https://orcid.org/0000-0002-6766-0295
+
+    # - icon: researchgate
+    #   icon_pack: fab
+    #   link: https://www.researchgate.net/profile/Rizwan-Hasan
 
     # - icon: telegram
     #   icon_pack: fab
